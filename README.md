@@ -11,8 +11,8 @@ Built with Python · Streamlit · Scikit-learn
 
 
 
-</div>
 
+</div>
 
 📌 Overview
 
@@ -81,34 +81,37 @@ Price prediction algorithm
 🗂️ Project Structure
 
 AutoPrice-Car-Price-Prediction/
+
 ├── app.py
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── autos_dataset.csv
-└── Autoprice car prediction.zip  
+
 
 
 ⚙️ Getting Started
 
 1. Download or clone the repository
 
-git clone https://github.com/sagarkashid2504-svg/AutoPrice-Car-Price-Prediction.git
-cd AutoPrice-Car-Price-Prediction
+       git clone https://github.com/sagarkashid2504-svg/AutoPrice-Car-Price-Prediction.git
+       cd AutoPrice-Car-Price-Prediction
 
 2. (Recommended) Create a virtual environment
 
-python -m venv .venv
-.venv\Scripts\activate
+       python -m venv .venv
+       .venv\Scripts\activate
 
 3. Install dependencies
 
-pip install -r requirements.txt
+       pip install -r requirements.txt
 
 4. Run the application
 
-streamlit run app.py
+       streamlit run app.py
 
-Streamlit will print a local address in the terminal, usually http://localhost:8501. Open that address in your browser.
 
 
 🔍 How It Works
